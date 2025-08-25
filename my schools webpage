@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My School</title>
+</head>
+
+<body>
+    <h1>ACG Tauranga</h1>
+    <h2>-Early Learning School, Primary and College</h2>
+    <h3><i>An inspired School</i></h3>
+    <h4>6 Keenan Road Pyes Pa, Tauranga 3173</h4>
+    <h4>ACG Tauranga is registered under the <mark>inspired school</mark> group</h4>
+    <print> 2025 School Fees: <del>$34,740 NZD</del><em><b>$24,990 NZD</b></em></print><br>
+    <print>Number of Students: <strong>450</strong></print><br>
+    <small>IGCSE Pass Rate:</small>
+    <print> <b>99%</b></print><br>
+    <small>Cambridge A Level Pass Rate:</small>
+    <print> <b>100%</b></print><br>
+    <br><mark><q>An Inspired School</q></mark>
+    <blockquote cite="https://www.tauranga.acgedu.com/">ACG Tauranga is a proud member of Inspired Education, a global
+        group of 121 premium schools committed to unlocking every
+        student's potential with a modern, innovative approach to teaching and learning practices. Inspired educates
+        over 95,000 children across more than 28 countries on 6 continents, and each school provides high-quality
+        curriculums with an
+        international outlook. At our private school in Tauranga, children enjoy world-class tuition that seeks to help
+        them
+        attain fulfilment, achievement and international success.</blockquote>
