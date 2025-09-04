@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Planet info</title>
+</head>
+
+<body>
+    <h1>All about planets</h1>
+    <h2>The planets</h2>
+    <ol>
+        <li>Mercury</li>
+        <li>Venus</li>
+        <li>Earth</li>
+        <li>Mars</li>
+        <li>Jupiter</li>
+        <li>Saturn</li>
+        <li>Uranus</li>
+        <li>Neptune</li>
+    </ol>
+    <table border="5" bgcolor="yellow">
+        <tr>
+            <th bgcolor="green" border="10">Planet
+            </th>
+            <th>Sidereal year</th>
+            <th>Color</th>
+        </tr>
+        <tr>
+            <td>Mercury</td>
+            <td>88 Earth Days</td>
+            <td>Light gray</td>
+        </tr>
+        <tr>
+            <td>Venus</td>
+            <td>224.7 Earth Days</td>
+            <td>Yellow/Beige</td>
+        </tr>
+        <tr>
+            <td>Earth</td>
+            <td>365 Earth Days</td>
+            <td>Blue</td>
+        </tr>
+        <tr>
+            <td>Mars</td>
+            <td>687 Earth Days</td>
+            <td>Reddish-Brown</td>
+        </tr>
+        <tr>
+            <td>Jupiter</td>
+            <td>4,333 Earth Days</td>
+            <td>Mixture of Several</td>
+        </tr>
+        <tr>
+            <td>Saturn</td>
+            <td>10,759 Earth Days</td>
+            <td>Yellowish-orange</td>
+        </tr>
+        <tr>
+            <td>Uranus</td>
+            <td>30,687 Earth Days</td>
+            <td>Pale Blue-green</td>
+        </tr>
+        <tr>
+            <td>Neptune</td>
+            <td>60,182 Earth Days</td>
+            <td>Deep blue</td>
+        </tr>
+        <h2>Information</h2>
+        <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Mercury_(planet)">Mercury</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Venus">Venus</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Earth">Earth</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Mars">Mars</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Jupiter">Jupiter</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Saturn">Saturn</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Uranus">Uranus</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Neptune">Neptune</a></li>
+        </ul>
+        <h2>Table of Planets</h2>
+</body>
+
+</html>
