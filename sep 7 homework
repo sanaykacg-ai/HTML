@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nature</title>
+</head>
+
+<body>
+    <h2>Sounds of Nature</h2>
+    <audio controls autoplay>
+        <source src="nature-ambience-323729.mp3" type="audio/mpeg"> Your browser does not support the audio tag
+    </audio>
+    <h2>Video of nature</h2>
+    <video width="400" height="300" controls autoplay poster="Screenshot 2025-09-13 at 7.29.07 PM.png" loop>
+        <source src="101527-video-720.mp4" type="video/mp4"> Your browser does not support the video tag
+    </video>
+    <h2>Images of Nature</h2>
+    <center>
+        <img src="1200px-Altja_jõgi_Lahemaal.jpg" alt="This image cannot load" width="500" height="500">
+    </center>
+    <center>
+        <img src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/z/u/Zugpsitze_mountain.jpg?crop=0%2C214%2C3008%2C1579&wid=1200&hei=630&scl=2.506666666666667"
+            alt="This image cannot load" width="500" height="500">
+    </center>
+    <h2>Youtube Video on Nature</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/SYyvx6GE2UI?si=dHLiYCm-q3RIJh6X"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+
+</html>
