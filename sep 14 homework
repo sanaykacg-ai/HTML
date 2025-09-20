@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>The Sun</title>
+    </head>
+    <body>
+      <header>
+        <h1>Navigational Links</h1>
+        <nav>
+          <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#posts">Posts</a></li>
+              <li><a href="#Contacts">Contacts</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Facts about the Sun</h2>
+                <p>
+                    The sun is 4.6 billion years old and has about 5 billion years left.
+                </p>
+            </article>
+            <aside>
+                <p>Because of the distance between the Sun and Earth, light takes 8 minutes to travel between the two. This means we see the sun as it was 8 minutes ago.</p>
+            </aside>
+        </section>
+        <figure>
+            <img src="https://cdn.hswstatic.com/gif/gettyimages-1406174121.jpg"/>
+            <figcaption>The Sun</figcaption>
+        </figure>
+        <embed src="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyYWFqZjF1N25paHRpdng2NnI2aHA2bG5rbTEyZHp5aWdoOW1qMzNrMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/107KlThVAe0M0w/source.gif"/>
+    </main>
+    <footer>
+        <p>Contact me at my phone number</p>
+    </footer>
+</body>
+</html>
