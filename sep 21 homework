@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Student Portal Login</h1>
+    <form>
+      <fieldset>
+        <legend>ACG Login</legend>
+        <label>First Name</label><br />
+        <input type="text" id="Fname" /><br /><br />
+        <label>Surname</label><br />
+        <input type="text" id="Sname" /><br /><br />
+        <label>Email Address</label><br />
+        <input type="text" id="Email" /><br /><br />
+        <label>Password</label><br />
+        <input type="password" id="Password" /><br /><br />
+        <label>Gender</label><br />
+        <input type="radio" name="male" id="Gender" value="Male" />Male<br />
+        <input
+          type="radio"
+          name="female"
+          id="Gender"
+          value="Female"
+        />Female<br />
+        <input
+          type="radio"
+          name="other"
+          id="Gender"
+          value="Other"
+        />Other<br /><br />
+        <label>Favourite subject</label><br />
+        <input type="checkbox" id="subject" value="Math" />Math<br />
+        <input type="checkbox" id="subject" value="English" />English<br />
+        <input type="checkbox" id="subject" value="Art" />Art<br />
+        <input type="checkbox" id="subject" value="Music" />Music<br />
+        <input type="checkbox" id="subject" value="Spanish" />Spanish<br />
+        <input type="checkbox" id="subject" value="Drama" />Drama<br />
+        <input type="checkbox" id="subject" value="Geography" />Geography<br />
+        <input
+          type="checkbox"
+          id="subject"
+          value="History"
+        />History<br /><br />
+        <label>Year Group</label><br />
+        <select>
+          <option value="Year">Year 1</option>
+          <option value="Year">Year 2</option>
+          <option value="Year">Year 3</option>
+          <option value="Year">Year 4</option>
+          <option value="Year">Year 5</option>
+          <option value="Year">Year 6</option>
+          <option value="Year">Year 7</option>
+          <option value="Year">Year 8</option>
+          <option value="Year">Year 9</option>
+          <option value="Year">Year 10</option>
+          <option value="Year">Year 11</option>
+          <option value="Year">Year 12</option>
+          <option value="Year">Year 13</option></select
+        ><br /><br />
+        <input type="submit" "/>
+      </fieldset>
+    </form>
+  </body>
+</html
