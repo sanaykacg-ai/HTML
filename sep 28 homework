@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Colours</title>
+    <style>
+        h1,
+        p {
+            color: lightslategray;
+        }
+    </style>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <h1>Colours of the rainbow</h1>
+    <hr>
+    <h2 style="color:Red;">Red</h2>
+    <h3 style="color:Orange;">Orange</h3>
+    <h4>Yellow</h4>
+    <h5>Green</h5>
+    <h6>Blue</h6>
+    <h1 class="myclass">Indigo</h1><br>
+    <h1 id="myid">Violet</h1>
+    <hr>
+    <p>The 7 colours of the rainbow come from the refraction of sunlight in water droplets, creating a process called
+        dispersion in which the light is split into its individual wavelengths.</p>
+    <hr>
+
+</body>
