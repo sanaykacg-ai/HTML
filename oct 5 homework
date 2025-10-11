@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Backgrounds</title>
+    <style>
+      @keyframes example {
+        0% {
+          background-color: red;
+        }
+
+        25% {
+          background-color: yellow;
+        }
+
+        50% {
+          background-color: green;
+        }
+
+        100% {
+          background-color: blue;
+        }
+      }
+
+      div {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        animation-name: example;
+        animation-duration: 4s;
+      }
+    </style>
+    <style>
+      #grad1 {
+        width: 400px;
+        height: 400px;
+        background-color: red;
+        background: linear-gradient(
+          to bottom right,
+          blue,
+          indigo,
+          purple,
+          violet,
+          pink
+        );
+      }
+    </style>
+    <style>
+      body {
+        background-color: white;
+        background-image: url("https://science.nasa.gov/wp-content/uploads/2023/06/planets3x3-pluto-colormercury-axis-tilt-nolabels-1080p.00001-print.jpg");
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-attachment: fixed;
+      }
+    </style>
+  </head>
+  <body>
+    <div>Animations</div>
+    <div
+      id="grad1"
+      style="
+        text-align: center;
+        margin: auto;
+        color: #ffffff;
+        font-weight: bold;
+      "
+    >
+      Gradients
+    </div>
+    <h1>The planets in the back is a background image</h1>
+  </body>
+</html>
