@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        div {
+            width: 300px;
+            height: 100px;
+            background-color: yellow;
+            border: 1px dashed black
+        }
+
+        #myDiv {
+            transform: rotateY(180deg);
+        }
+
+        #text {
+            text-shadow: 2px 2px 1px #189BCC
+        }
+
+        h2 {
+            text-decoration: underline;
+            text-transform: uppercase;
+        }
+
+        .text1 {
+            color: #189BCC;
+            font-size: 30px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="text">Different Types of Text Styling Properties</h1>
+    <p>That was a Text Shadow</p>
+    <div>
+        This is Rotation
+    </div>
+    <div id="myDiv">
+        This is Rotation
+    </div>
+    <h2>This is text decoration/transformation</h2>
+    <p class="text1">This is Typography</p>
+</body>
+
+</html>
