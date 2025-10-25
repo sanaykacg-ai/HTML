@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <h1>All about Space</h1>
+    <h2>The planets:</h2>
+    <ul>
+      <li>Mercury</li>
+      <li>Venus</li>
+      <li style="color: black" ;>Earth</li>
+      <li>Mars</li>
+      <li>Jupiter</li>
+      <li>Saturn</li>
+      <li>Uranus</li>
+      <li>Neptune</li>
+    </ul>
+    <h2>Facts:</h2>
+    <p>
+      Theories about the moon suggest that a mars-sized planet named 'Theia'
+      crashed into earth and the debri slowly came together to form, the moon!
+    </p>
+
+    <p>
+      If several pieces of metal touch each other in space, they will fuse! This
+      is because of the lack of atmosphere, which causes the metal to lose their
+      oxide layer, allowing them to stick!
+    </p>
+    <a href="#">More about Space</a>
+    <a href="#">Latest Space News</a>
+  </body>
+</html>
