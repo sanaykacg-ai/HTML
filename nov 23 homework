@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="display-1">Lots of stuff about<mark> Sanay Kaul</mark></h1>
+        <h1 class="display-3">This was made by<mark> Sanay Kaul</mark></h1>
+        <h1 class="display-4">This was made by<mark> Sanay Kaul</mark></h1>
+        <small class="text-muted">This was made by<mark> Sanay Kaul</mark></small>
+    </div>
+    <blockquote class="blockquote">
+        <p>Sanay Kaul is very cool</p>
+        <footer class="blockquote-footer">From Sanay Kaul</footer>
+    </blockquote>
+    <p><abbr title="Sanay Kaul">SK</abbr> was founded in 2012</p>
+    <pre>
+            Sanay
+            Is
+            Cool
+        </pre>
+    <p>On mac, press <kbd>cmnd + q</kbd> and you will get a surprise!</p>
+    <p><code>Sanay</code> is <code>cool</code></p>
+    <p>Sanay<sub>made</sub><sup>this</sup></p>
+    <div class="container">
+        <p>What is Sanay</p>
+        <dl>
+            <dt>Sanay</dt>
+            <dd>A very amazing person who is good at coding</dd>
+        </dl>
+    </div>
+    <input type="color" name="color" id="color">
+</body>
+
+</html>
