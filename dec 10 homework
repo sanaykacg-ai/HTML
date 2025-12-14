@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron jumbotron-fluid">
+        <h1>My Test Scores</h1>
+        <p>My end of year test scores of 2025</p>
+      </div>
+    </div>
+    <div class="container">
+      <h2>My subjects</h2>
+      <span class="badge badge-danger">Math</span>
+      <span class="badge badge-warning">Science</span>
+      <span class="badge badge-success">English</span>
+      <span class="badge badge-primary">Humanities</span>
+      <span class="badge badge-info">Computer Science</span>
+      <span class="badge badge-muted">Art</span>
+      <span class="badge badge-light">Public Speaking</span>
+      <span class="badge badge-secondary">Health</span>
+      <span class="badge badge-dark">Music</span>
+    </div>
+    <div class="container mt-3">
+      <h2>My tested subjects</h2>
+      <button type="button" class="btn btn-danger">Math</button>
+      <button type="button" class="btn btn-warning">Science</button>
+      <button type="button" class="btn btn-success">English</button>
+      <button type="button" class="btn btn-primary">Humanities</button>
+    </div>
+    <div class="container">
+      <h2>My scores</h2>
+      <div class="progress">
+        <div class="progress-bar bg-danger" style="width: 93%">Math: 93%</div>
+        <div class="progress-bar bg-warning" style="width: 89%">
+          Science: 89%
+        </div>
+        <div class="progress-bar bg-success" style="width: 80%">
+          English: 80%
+        </div>
+        <div class="progress-bar bg-primary" style="width: 88%">
+          Humanities: 88%
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
