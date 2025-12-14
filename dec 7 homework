@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container border 5px solid black">
+      <h1>Container 1</h1>
+      <p>This is the first container with a 5px solid black border.</p>
+    </div>
+    <hr />
+    <div class="container-fluid bg-danger text-white">
+      <h1>Container 2</h1>
+      <p>
+        This is the second container, it is fluid, with a red background and
+        white text.
+      </p>
+    </div>
+    <div class="container-fluid bg-warning text-white">
+      <h1>Container 3</h1>
+      <p>
+        This is the third container, it is fluid, with a yellow background and
+        white text.
+      </p>
+    </div>
+    <div class="container-fluid bg-success text-white">
+      <h1>Container 4</h1>
+      <p>
+        This is the fourth container, it is fluid, with a green background and
+        white text.
+      </p>
+    </div>
+    <div class="container-fluid bg-primary text-white">
+      <h1>Container 5</h1>
+      <p>
+        This is the fifth container, it is fluid, with a blue background and
+        white text.
+      </p>
+    </div>
+    <hr />
+    <div class="container py-1 mx-2 bg-info text-white">
+      <h1>Container 6</h1>
+      <p>
+        This is the sixth container, it has a top/bottom padding of 1 and
+        left/right margin of 2 with a cyan background and white text.
+      </p>
+    </div>
+    <div class="container px-1 my-2 bg-light text-black">
+      <h1>Container 7</h1>
+      <p>
+        This is the seventh container, it has a left/right padding of 1 and
+        top/bottom margin of 2 with a white background and black text.
+      </p>
+    </div>
+    <div class="container pt-3 m-4 bg-secondary text-white">
+      <h1>Container 8</h1>
+      <p>
+        This is the eigth container, it has a top padding of 3 and a margin of 4
+        with a grey background and white text.
+      </p>
+    </div>
+    <div class="container p-3 mb-4 bg-dark text-white">
+      <h1>Container 9</h1>
+      <p>
+        This is the nineth container, it has a padding of 3 and bottom margin of
+        4 with a dark grey background and white text.
+      </p>
+    </div>
+    <hr />
+  </body>
+</html>
