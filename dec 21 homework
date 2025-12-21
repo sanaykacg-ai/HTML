@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>Javascript Operations</h1>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <p id="demo5"></p>
+    <p id="demo6"></p>
+    <script>
+        var a = 7;
+        var b = 3;
+        var c = a + b;
+        var d = a - b;
+        var e = a * b;
+        var f = a / b;
+        var g = a % b;
+        document.getElementById("demo").innerHTML = "A is equal to: " + a + "."
+        document.getElementById("demo1").innerHTML = "B is equal to: " + b + "."
+        document.getElementById("demo2").innerHTML = "A + B is equal to: " + c + "."
+        document.getElementById("demo3").innerHTML = "A - B is equal to: " + d + "."
+        document.getElementById("demo4").innerHTML = "A x B is equal to: " + e + "."
+        document.getElementById("demo5").innerHTML = "A ÷ B is equal to: " + f + "."
+        document.getElementById("demo6").innerHTML = "The remainder of A ÷ B is equal to: " + g + "."
+    </script>
+</body>
+
+</html>
