@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1 style="color:blue">Multiplication functions</h1>
+    <p>Click this button to see the answer to 4 x ?:</p>
+    <button onclick="myfunction(4)">Click here!</button>
+    <script>
+        function myfunction(x, y) {
+            if (y === undefined) {
+                y = 8;
+            }
+            document.write(x * y)
+        }
+    </script>
+</body>
