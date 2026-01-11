@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <p id="demo"></p>
+    <script>
+        var student = {
+            name: 'Riya',
+            age: '12',
+            Grade: '7',
+            hobbies: 'Drawing',
+            fav_sport: 'Cricket'
+        };
+        var color = ["white", "black", "red", "green", "blue"];
+        document.write("Student name is: " + student.name, "<br>", "Student's favourite sport is: " + student.fav_sport);
+        document.write("<br>");
+        document.write("Before popping the colors are: " + color.join("^"));
+        document.write("<br>");
+        document.write("My favourite color is: " + color[3]);
+        document.write("<br>");
+        color.pop();
+        document.write("After popping the colors are: " + color.join("*"));
+        function add(a, b) {
+            return a + b;
+        }
+        function average(a, b) {
+            return (a + b) / 2;
+        }
+        let result = average(15, 35);
+        document.getElementById("demo").innerHTML = "Average number of students with same favourite color: " + result;
+    </script>
+</body>
+
+</html>
