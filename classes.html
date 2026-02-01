@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <p id="student1"></p>
+    <p id="student2"></p>
+    <script>
+        // Creating a class
+        class Student {
+            constructor(name, year) {
+                this.name = name;
+                this.year = year;
+            }
+
+            //Age method
+            age() {
+                let date = new Date();
+                return date.getFullYear() - this.year;
+            }
+        }
+
+        // Using the class with 2 objects
+        const student1 = new Student("Riya", 2014);
+        document.getElementById("student1").innerHTML = "My name is: " + student1.name + ". I was born in: " + student1.year + " and I am: " + student1.age() + " years old.";
+
+        const student2 = new Student("Tina", 2018);
+        document.getElementById("student2").innerHTML = "My name is: " + student2.name + ". I was born in: " + student2.year + " and I am: " + student2.age() + " years old.";
+    </script>
+</body>
+
+</html>
