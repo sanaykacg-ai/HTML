@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h2>JavaScript Array: Sort + Reverse, Mapping, Evaluation</h2>
+    <p>The numbers 10, 20, 30, 40, 50 are multiplied by 10 through array mapping.</p>
+    <p>The sort() method sorts an array alphabetically.</p>
+    <p>The reverse() method reverses the elements in an array.</p>
+    <p>The eval() method evaluates the expressions, in this case: 15 + 29, 5 x 2, 29 - 15.</p>
+    <button onclick="sortfunction()">Sort me</button>
+    <button onclick="reversefunction()">Reverse me</button>
+    <button onclick="myFunction1()">Evaluate me</button>
+    <p id="product_value"></p>
+    <p id="result"></p>
+    <p id="result1"></p>
+    <script>
+        //Create and display an array
+        var fruits = [" Banana", " Orange", " Apple", " Mango"];
+        document.getElementById("result").innerHTML = fruits;
+        function sortfunction() {
+            //First sort the array
+            fruits.sort();
+            document.getElementById("result").innerHTML = fruits;
+        }
+        function reversefunction() {
+            //Then reverse it
+            fruits.reverse();
+            document.getElementById("result").innerHTML = fruits;
+        }
+        var numbers = [10, 20, 30, 40, 50];
+        function myFunction(num) {
+            return " " + num * 10
+        }
+        var array = numbers.map(myFunction)
+        document.getElementById("product_value").innerHTML = array;
+        function myFunction1() {
+            var x = 15;
+            var y = 29;
+            var a = eval("x + y") + "<br>";
+            var b = eval("5 * 2") + "<br>";
+            var c = eval("y - x") + "<br>";
+            var res = a + b + c;
+            document.getElementById("result1").innerHTML = res;
+        }
+    </script>
+</body>
+
+</html>
