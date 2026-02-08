@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <p id="sis1"></p>
+    <p id="sis2"></p>
+    <p id="details"></p>
+    <p id="hello"></p>
+    <p id="greetings"></p>
+    <p id="welcome"></p>
+    <script>
+        class Sis {
+            constructor(name, year) {
+                this.name = name;
+                this.year = year;
+            }
+
+            age() {
+                let date = new Date();
+                return date.getFullYear() - this.year;
+            }
+        }
+
+        const sis1 = new Sis("Myra", 2019);
+        document.getElementById("sis1").innerHTML = "My name is: " + sis1.name + ". I was born in: " + sis1.year + " and I am: " + sis1.age() + " years old.";
+
+        const sis2 = new Sis("Norah", 2022);
+        document.getElementById("sis2").innerHTML = "My name is: " + sis2.name + ". I was born in: " + sis2.year + " and I am: " + sis2.age() + " years old.";
+
+        class Car {
+            constructor(brand) {
+                this.carname = brand;
+            }
+            present() {
+                return 'My car is a ' + this.carname;
+            }
+        }
+
+        class Model extends Car {
+            constructor(brand, mod) {
+                super(brand);
+                this.model = mod;
+            }
+
+            show() {
+                return this.present() + this.model;
+            }
+        }
+
+        let myCar = new Model("Lamborghini", " Sián");
+        document.getElementById("details").innerHTML = myCar.show();
+
+        class Student {
+            constructor(name) {
+                this.studentName = name;
+            }
+            static hello() {
+                return "Hello!";
+            }
+            static welcome(x) {
+                return "Welcome " + x.studentName;
+            }
+            greetings() {
+                return "Greetings " + this.studentName;
+            }
+        }
+
+        myname = new Student("Sanay");
+        document.getElementById("hello").innerHTML = Student.hello();
+        document.getElementById("greetings").innerHTML = myname.greetings();
+        document.getElementById("welcome").innerHTML = Student.welcome(myname);
+    </script>
+</body>
+
+</html>
