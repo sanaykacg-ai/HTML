@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function validateForm() {
+            var x = document.forms["myForm"]["fname"].value;
+            if (x == "") {
+                alert("Please enter your name");
+                return false;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Login</h1>
+    <p>Please enter your name. An alert will appear on your screen if your name is not entered.</p>
+    <form name="myForm" onsubmit="return validateForm()">
+        Name: <input type="text" name="fname">
+        <input type="submit" value="OK">
+    </form>
+    <p>Please enter your age. Age must be 18 or greater or it will not be accepted.</p>
+    <p id="message"></p>
+    <input id="id" type="number" min="18" required>
+    <button onclick="myFunction()">OK</button>
+    <p id="result"></p>
+    <script>
+        function myFunction() {
+            var inpobj = document.getElementById("id");
+            if (inpobj.checkValidity()) {
+                document.getElementById("result").innerHTML = inpobj.validationMessage + "Accepted";
+            } else {
+                document.getElementById("result").innerHTML = "Not Accepted";
+            }
+        }
+    </script>
+</body>
+
+</html>
